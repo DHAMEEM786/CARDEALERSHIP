@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const inventoryData = [
         {
             title: '2023 Tata Harrier XZA+',
-            imageSrc: 'https://images.unsplash.com/photo-1619256802113-754d72a088a8',
+            imageSrc: 'https://tse2.mm.bing.net/th/id/OIP.mDUUT5QVuYN5iQ-3PWrF4wHaFj?r=0&rs=1&pid=ImgDetMain&o=7&rm=3',
             // Field mapping: 'date' from original prompt is now 'specs'
             specs: '18,000 km | Automatic | Diesel',
             // Field mapping: 'shortdescription' is now 'price'
@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
             title: '2022 Hyundai Creta SX(O)',
-            imageSrc: 'https://images.unsplash.com/photo-1617814086918-474c10a112c1',
+            imageSrc: 'https://stimg.cardekho.com/images/carexteriorimages/630x420/Hyundai/Creta/8667/1744607863052/front-left-side-47.jpg',
             specs: '25,000 km | Automatic | Petrol',
             price: '₹ 17,80,000',
             detailsLink: '#',
@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
             title: '2023 Kia Seltos GTX+',
-            imageSrc: 'https://images.unsplash.com/photo-1628182189689-9a2b9637e19d',
+            imageSrc: 'https://imgd.aeplcdn.com/0X0/n/cw/ec/33372/seltos-exterior-right-front-three-quarter.jpeg?q=85',
             specs: '12,500 km | Automatic | Petrol',
             price: '₹ 19,20,000',
             detailsLink: '#',
@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
             title: '2024 Mahindra Scorpio-N',
-            imageSrc: 'https://images.unsplash.com/photo-1669251878809-56de3052a71f',
+            imageSrc: 'https://images.unsplash.com/photo-1669251878809-56de3052a71fhttps://stimg.cardekho.com/images/carexteriorimages/630x420/Mahindra/Scorpio-N/10817/1740050844896/front-left-side-47.jpg?tr=w-664',
             specs: '9,000 km | Manual | Diesel',
             price: '₹ 24,00,000',
             detailsLink: '#',
@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
             title: '2023 Maruti Suzuki Vitara Brezza',
-            imageSrc: 'https://images.unsplash.com/photo-1616628187761-3a5e4f4b8b6c',
+            imageSrc: 'https://wallpaperaccess.com/full/6905958.jpg',
             specs: '15,000 km | Automatic | Petrol',
             price: '₹ 11,50,000',
             detailsLink: '#',
