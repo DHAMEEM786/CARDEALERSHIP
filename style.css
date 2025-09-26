@@ -1,4 +1,3 @@
-/* General Styles */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
@@ -14,15 +13,12 @@ body {
     padding: 0 20px;
 }
 
-/* Header */
 header {
     background: #1a1a1a;
     color: #fff;
     padding: 1rem 0;
     border-bottom: 3px solid #007bff;
     position: sticky;
-    top: 0;
-    z-index: 100;
 }
 
 header .container {
@@ -49,7 +45,6 @@ header nav a:hover {
     color: #007bff;
 }
 
-/* Section Styling */
 section {
     padding: 4rem 0;
 }
@@ -60,7 +55,6 @@ section h2 {
     margin-bottom: 3rem;
 }
 
-/* Hero Section */
 #hero {
     background: #212529;
     color: #fff;
@@ -72,10 +66,23 @@ section h2 {
     gap: 2rem;
 }
 
-#hero .hero-text { flex: 1; }
-#hero .hero-text h1 { font-size: 3.5rem; }
-#hero .hero-text p { font-size: 1.1rem; margin-bottom: 2rem; }
-#hero .hero-image { flex: 1; }
+#hero .hero-text {
+    flex: 1;
+}
+
+#hero .hero-text h1 {
+    font-size: 3.5rem;
+}
+
+#hero .hero-text p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+#hero .hero-image {
+    flex: 1;
+}
+
 #hero .hero-image img {
     width: 100%;
     border-radius: 10px;
@@ -99,9 +106,13 @@ section h2 {
     background: #0056b3;
 }
 
-/* Inventory Section */
-#inventory { background-color: #fff; }
-#inventory h2 { color: #333; }
+#inventory {
+    background-color: #fff;
+}
+
+#inventory h2 {
+    color: #333;
+}
 
 .inventory-container {
     display: flex;
@@ -114,27 +125,51 @@ section h2 {
     background: #fdfdfd;
     border: 1px solid #eee;
     border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     width: 340px;
-    overflow: hidden;
     display: flex;
     flex-direction: column;
 }
 
-.vehicle-tile img { width: 100%; height: 200px; object-fit: cover; }
-.vehicle-tile-content { padding: 1.5rem; flex-grow: 1; display: flex; flex-direction: column; }
-.vehicle-tile h3 { margin-top: 0; color: #212529; }
-.vehicle-tile .details { color: #555; font-size: 0.9rem; margin-bottom: 1rem; }
-.vehicle-tile .price { font-size: 1.6rem; font-weight: bold; color: #007bff; margin-bottom: 1.5rem; flex-grow: 1; }
-.vehicle-tile .details-link { display: inline-block; text-decoration: none; font-weight: bold; color: #007bff; align-self: flex-start; }
+.vehicle-tile img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
 
-/* Contact & Footer */
-#contact { background-color: #f4f4f4; }
-#contact-form { max-width: 600px; margin: 0 auto; }
-.form-group { margin-bottom: 1.5rem; }
-.form-group label { display: block; margin-bottom: 0.5rem; font-weight: 500; }
-.form-group input, .form-group textarea { width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; font-size: 1rem; }
+.vehicle-tile-content {
+    padding: 1.5rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
 
+.vehicle-tile h3 {
+    margin-top: 0;
+    color: #212529;
+}
+
+.vehicle-tile .details {
+    color: #555;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.vehicle-tile .price {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 1.5rem;
+    flex-grow: 1;
+}
+
+.vehicle-tile .details-link {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    color: #007bff;
+    align-self: flex-start;
+}
 footer {
     background: #1a1a1a;
     color: #fff;
@@ -142,7 +177,9 @@ footer {
     padding: 2rem 0;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
-    #hero .container { flex-direction: column; text-align: center; }
+    #hero .container {
+        flex-direction: column;
+        text-align: center;
+    }
 }
